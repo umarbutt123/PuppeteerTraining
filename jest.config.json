@@ -1,0 +1,13 @@
+{
+    "reporters": [
+      "default",
+      [
+      "jest-html-reporters",
+      {
+        "publicPath": "./reports",
+        "filename": "jest-html-report.html"
+      }
+    ]
+    ]
+}
+

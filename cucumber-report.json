@@ -1,0 +1,75 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search login dropbox",
+    "line": 1,
+    "id": "search-login-dropbox",
+    "tags": [],
+    "uri": "features\\dropbox.feature",
+    "elements": [
+      {
+        "id": "search-login-dropbox;verify-result-for-google-search",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify result for google search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The browser is open",
+            "match": {
+              "location": "features\\dropbox.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "open the dropbox page",
+            "match": {
+              "location": "features\\dropbox.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11793000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "enter empty values",
+            "match": {
+              "location": "features\\dropbox.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2288000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "validate the error message",
+            "match": {
+              "location": "features\\dropbox.js:24"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 518000000,
+              "error_message": "TimeoutError: Text not found \"Please enter your email\"\nwaiting for function failed: timeout 500ms exceeded"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
