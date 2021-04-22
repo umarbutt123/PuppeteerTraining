@@ -1,0 +1,34 @@
+What can I do?
+Most things that you can do manually in the browser can be done using Puppeteer! Here are a few examples to get you started:
+
+Generate screenshots and PDFs of pages.
+Automate form submission, UI testing, keyboard input, etc.
+
+
+Installation
+To use Puppeteer in your project, run:
+
+npm i puppeteer
+
+
+
+Puppeteer is a Node library which provides a high-level API to control headless Chrome or 
+Chromium over the DevTools Protocol. It can also be configured to use full (non-headless) Chrome or Chromium.
+
+
+
+To sum it up, Puppeteer is faster than Selenium, but it works only with Chrome, while Selenium works with Chrome, Firefox, Safari,
+ Internet Explorer and Edge.Jul 15, 2019
+
+support of browsers
+
+
+run command :
+npm i jest-html-reporters
+add following json in jest.config.json :
+{
+  "reporters": [
+    "default",
+    "jest-html-reporters"
+  ]
+}
