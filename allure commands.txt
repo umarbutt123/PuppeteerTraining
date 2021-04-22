@@ -1,0 +1,12 @@
+
+to generate report locally -- > allure generate
+to overrite report locally -- > allure generate clean
+to generate report on server --> allure serve
+to generate report in specific folder --> allure generate -o "path"
+to generate report folder with current date --> allure generate -o %date:~-4,4%%date:~-10,2%%date:~7,2% %time%
+
+to generate report folder with current date & time --> allure generate -o %date:~10%-%date:~4,2%-%date:~7,2%_%time:~0,2%hr.%time:~3,2%m.%time:~6,2%s
+
+
+
+
